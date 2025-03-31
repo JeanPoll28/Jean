@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de producto</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .form-container{
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        h2{
+            text-align: center;
+            color: #333;
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        .form-group label{
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .form-group input, .form-group select, .form-group textarea{
+
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .form-group button{
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+
+        }
+        .form-group button :hover{
+            background-color: #45a049;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Formulario de Registro de Producto</h2>
+
+
+    <form action="#" method="POST">
+        <!--NOMBRE DEL PRODUCTO-->
+         <div class="form-grup">
+            <label for="producto">Nombre del Producto</label>
+            <input type="text" id="producto" name="producto" required>
+         </div>
+
+
+    <!--CATEGORIA DEL PRODUCTO (COMBO BOX)-->
+     <div class="form-grup">
+        <label for="categoria">categoria del producto</label>
+        <select id="categoria" name="categoria" require>
+            <option value="seleccione">Seleccione</option>
+            <option value="seleccione">Electronica</option>
+            <option value="seleccione">Ropa</option>
+            <option value="seleccione">Alimentos</option>
+            <option value="seleccione">Hogar</option>
+        </select>
+        
+     </div>
+
+    <!--Descripcion del producto-->
+    <div class="form-grup">
+        <label for="descripcion">Descripcion del producto</label>
+        <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+    </div>
+
+     <!--Precio-->
+     <div class="form-grup">
+        <label for="precio">Precio del producto</label>
+        <input type="number" id="precio" name="precio" min="0" required>
+     </div>
+
+    <!--Disponibilidad-->
+    <div class ="form-grup">
+        <label for="dispinibilidad">¿Esta disponible?</label>
+        <input type="radio" id="no-disponible" name="disponibilidad" value="Si" required>Si 
+        <input type="radio" id="no-disponible" name="disponibilidad" value="No" required>No 
+    </div>
+
+    <!--PRODUCTOS DESTACADOS-->
+    <div class="form-grup">
+        <label for="destacado">¿Es un producto destacado?</label>
+        <input type="checkbox" id="destacado" name="destacado">
+    </div>
+    <!--FECHA DE REGISTRO-->
+    <div class="form-grup">
+        <label for="fecha-registro">Fecha de Registro</label>
+        <input type="date" id="fecha-registro" name="fecha-registro" required>
+    </div>
+
+    <!--IMAGEN DEL PRODUCTO-->
+    <div class="form-grup">
+        <label for="imagen">subir imagen del Producto: </label>
+        <input type="file" id="imagen" name="imagen" accept="imagen/*">
+    </div>
+    <!--BOTON DE ENVIO-->
+    <div class="form-grup" >
+        <button type="submit">Registrar Producto</button>
+    
+    </div>
+</form>
+</body>
+</html>
