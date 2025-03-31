@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeamFit</title>
+    <title>Tienda Nike</title>
     <style>
         /*el font family sirve para el tipo de letra, el margen,
         el padding es para dar una separacion de cada texto y el background color,
@@ -16,7 +16,7 @@
         }
         /*CONTENEDOR PRINCIPAL*/
         .banner-container{
-            width: 100%;
+            width: 40%;
             overflow: hidden;
             position: relative;
             background-color: #333;
@@ -41,7 +41,7 @@
         .welcome-text{
             text-align: center;
             font-size: 36px;
-            margin-top: 20px;
+            margin-top: 10px;
             color:#333;
 
         }  
@@ -59,8 +59,8 @@
             color: aquamarine;
         }
         .video iframe{
-            width: 80%;
-            height: 500px;
+            width: 45%;
+            height: 700px;
             border: none;
             border-radius: 8px;
         }
@@ -68,30 +68,30 @@
 </head>
 <body>
     <header>
-        <h1 class="welcome-text">Bienvenidos a Teamfit</h1>
+        <h1 class="welcome-text">Bienvenidos a Nike</h1>
     </header>
         <!--Banner de imagenes en movimiento-->
         <div class="banner-container">
         <div class="banner-imagenes">
-            <img src="../clase3/picture/Ropa.jpg" alt="Ropa 1">
-            <img src="../clase3/picture/Ropa2.jpg" alt="Ropa 2">
-            <img src="../clase3/picture/Ropa3.jpg" alt="Ropa3">
+            <img src="../Mi web/picture/Nike.jpg" alt="Ropa 1">
+            <img src="../Mi web/picture/nike2.jpg" alt="Ropa 2">
+            <img src="../Mi web/picture/nike3..jpg" alt="Ropa3">
 
             </div>
         </div>
 
         <br><br>
         <section class="video">
-            <h2>Descubre las nuevas novedades que te tiene TeamFit</h2>
-            <iframe src="https://www.youtube.com/watch?v=Tn70NxIMk2Q" 
-            title="Publicidad de TeamFit">
+            <h2>Descubre las nuevas tendencias que te tiene Nike</h2>
+            <iframe src="https://www.youtube.com/embed/aNSepdhwnm8?si=Fy1uCkwDLIj4Sklp" 
+            title="Publicidad de Nike">
 
             </iframe>
         </section>
 
         <footer>
             <!--Colocamos el copyright-->           
-            <p>&copy; 2025 - Team fit | Todos los derechos reservados</p>
+            <p>&copy; 2025 - Nike | Todos los derechos reservados</p>
             <!--Añadimos un número de contactos-->
             <!--El campo target, me permite crear un nueva pestaña-->
             <p><strong>Contacto: </strong> <a href="https://wa.link/zknnxu" target="_blank">903904905</a></p>
@@ -101,3 +101,4 @@
     
 </body>
 </html>
+
