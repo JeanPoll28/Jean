@@ -60,8 +60,7 @@
 
     <div class="form-container">
         <h2>Formulario de Registro de Producto</h2>
-
-
+      </div>
     <form action="#" method="POST">
         <!--NOMBRE DEL PRODUCTO-->
          <div class="form-grup">
