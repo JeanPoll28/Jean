@@ -1,0 +1,82 @@
+/*Estilos Generales*/
+body{
+    /*Establecer la fuente del texto*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*fondo gris claro para el cuerpo*/
+    background-color: #f0f0f0;
+}
+header{
+    /*vamos a insertar un fondo verde para la cabezera*/
+    background-color: lightgreen;
+    padding: 15px;
+    color: white;
+    /* Usamos para organizar los elementos*/
+    display: flex;
+    /*Espacio entre el logo y la navegacion(El nav)*/
+    justify-content: space-between;
+    /*Alinea el logo y los enlaces verticamente*/
+    align-items: center;
+}
+header.log img{
+    width: 70%; /*tamaño de logo*/
+    height: auto;
+}
+nav ul{
+    /*Elimina los puntos de la lista*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*muestra los elementos de la lista en fila*/
+    display: flex;
+}
+nav ul li{
+    /*Espaciado entre los elementos de la lista*/
+    margin-left: 20px;
+}
+nav ul li a{
+    /*Elimina el subrayado de la lista*/
+    text-decoration: none;
+    /*color de los enlaces*/
+    color:white;
+    /*Hace de los enlaces*/
+    font-weight: bold;
+}
+::content{
+    padding: 20px;
+}
+.post{
+    /*Vamos agregar un fondo blanco para las publicaciones*/
+    background-color: white;
+    /*Vamos agregar bordes redondeados*/
+    border-radius: 10px;
+    /*Vamos agregar una sombra suave*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+button{
+    /*Fonod Violate para el Boton*/
+    background-color: violet;
+    /*texto blanco*/
+    color: white;
+    border: none;
+    /*Espaciado interno del boton*/
+    padding: 10px 20px;
+    /*Agregamos bordes redondeados*/
+    border-radius: 5px;
+    /*Cambia el cursor al parasar sobre el boton*/
+    cursor: pointer;
+}
+button:hover{
+    /*Color mas oscuro al pasar el mouse sobre el boton*/
+    background-color: darkgreen;
+}
+footer{
+    /*fondo oscuro para el pie d ela pagina*/
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
