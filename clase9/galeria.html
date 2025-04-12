@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria CSS - AVANZADA</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <input type="checkbox" id="img1">
+    <input type="checkbox" id="img2">
+    <input type="checkbox" id="img3">
+    <section class="Galeria">
+        <label class="imagen" for="img1">
+            <img src="nagi.png" alt="Nagi">
+        </label>
+        <label class="imagen" for="img2">
+            <img src="bachira.png" alt="bachira">
+        </label>
+        <label class="imagen" for="img3">
+            <img src="isagi.png" alt="Nagi">
+        </label>
+    </section>
+    <!--se procede a crear los modales-->
+    <!--Modal 1-->
+    <div class="modal" id="modal1">
+        <div class="modal1-content">
+            <label class="cerrar" for="img1">&times;</label>
+            <img src="nagi.png" alt="nagi grande">
+            <h2>Nagi</h2>
+            <p>Un personaje de una serie futbolistica</p>
+        </div>
+    </div>
+    <!--Modal 2 -->
+    <div class="modal" id="modal2">
+        <div class="modal2-content">
+            <label class="cerrar" for="img2">&times;</label>
+            <img src="bachira.png" alt="bachira grande">
+            <h2>Bachira</h2>
+            <p>Un personaje de una serie futbolistica</p>
+        </div>
+    </div>
+    <!--Modal 3-->
+    <div class="modal" id="modal3">
+        <div class="modal3-content">
+            <label class="cerrar" for="img3">&times;</label>
+            <img src="isagi.png" alt="isagi grande">
+            <h2>Isagi</h2>
+            <p>Un personaje de una serie futbolistica</p>
+        </div>
+    </div>
+</body>
+</html>
