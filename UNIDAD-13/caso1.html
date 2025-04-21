@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingresar número</title>
+</head>
+<body>
+  <h2>Ingrese un número entre 0 y 20</h2>
+  <input type="number" id="numero" min="0" max="20" />
+  <button onclick="evaluar()">Evaluar</button>
+
+  <p id="mensaje"></p>
+
+  <script>
+    function evaluar(){
+      const nota= Number(document.getElementById("nota").value);
+
+      if (nota<0 || nota>20) {
+        document.getElementById("mensaje").textContent = "Por favor ingrese un numero del 1 al 20";
+      } else if (nota>=18) {
+        mensaje.getElementById("mensaje").textContent = "Vaca";
+      } else if (nota>=15) {
+        mensaje.getElementById("mensaje").textContent = "Igor";
+      }else if (nota>=11) {
+        mensaje.getElementById("mensaje").textContent = "Pollo";
+    } else{
+        document.getElementById("mensaje").textContent="raro";
+    }
+    }
+  </script>
+</body>
+</html>

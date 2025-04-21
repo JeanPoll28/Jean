@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document 3</title>
+</head>
+<body>
+
+    
+    <h2>Contador</h2>
+    <p id="contador">0</p>
+
+     <button onclick="Aumentar">Aumentar</button>
+     <button onclick="Disminuir">Disminuir</button>
+
+     <script>
+        //antes debemos de crear una variable global//
+        //que almacena el valor del contenedor//
+        let valor=0;
+
+        //vamos a crear la funcion para aumentar//
+        function Aumentar(){
+            //a la variable global debemos aumentar e 1 en 1//
+            valor++;
+            //actualizamos el valor mostrado//
+            document.getElementById("contador").textContent = valor;
+        }
+
+        function Disminuir(){
+            valor--;
+            document.getElementById("contador").textContent = valor;
+        }
+  </script>
+    </body>
+</html>
