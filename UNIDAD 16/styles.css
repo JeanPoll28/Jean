@@ -1,0 +1,21 @@
+body{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clock-container{
+    background-color: antiquewhite;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(0,0,0,0.1 );
+}
+#clock{
+    color: darkolivegreen;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
